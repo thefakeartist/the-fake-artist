@@ -1,18 +1,18 @@
 body {
-	background-color: #035D00;
+	background-color: #675669;
 	line-height: 30px;
 	margin: 0 auto;
-	border: 2px solid yellow;
+	border: 2px solid #ecc6f4;
 }
 header {
 	
 	padding: 20px;
 	margin: 40px;
 	display: inline-block;
-	border: 4px solid black;
-	background-color: yellow;
+	
+	background-color: #ecc6f4;
 	font-family: 'Indie Flower', cursive;
-	box-shadow: 4px 2px 2px rgba(255 , 189 , 0 , .5);
+	box-shadow: 4px 2px 2px rgba(163 , 137 , 169 , .5);
 	
 }
 
@@ -45,16 +45,16 @@ h1 {
 }
 
 .col {
-	border: 4px solid black;
+	
 	padding: 10px;
-	background-color: purple;
+	background-color: #f4c6e5;
 	float: left;
 	margin-left: 20px;
 	width: 120px;
 	box-sizing: border-box;
 	text-align: center;
 	font-family: 'Caveat', cursive;
-	box-shadow: 5px 2px 2px rgba(29 , 15 , 159, .4);
+	box-shadow: 5px 2px 2px rgba(183 , 148 , 171, .4);
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 20px;
@@ -79,9 +79,9 @@ h1 {
 }
 
 .col2 {
-	border: 4px solid black;
+	color: black;
 	padding: 2px;
-	background-color: purple;
+	background-color: #f4c6e5;
 	float: left;
 	margin-left: 20px;
 	width: 100px;
@@ -91,7 +91,7 @@ h1 {
 	text-align: center;
 	font-size: 15px;
 	font-family: 'Caveat', cursive;
-	box-shadow: 5px 2px 2px rgba(29 , 15 , 159, .4);
+	box-shadow: 5px 2px 2px rgba(183 , 148 , 171, .4);
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 15px;
@@ -119,7 +119,7 @@ footer {
 
 }
 .blog2:hover{
-	color:green;
+	color:purple;
 }
 h2,h3{
 	text-align: center;
@@ -137,13 +137,13 @@ h2,h3{
 	font-family: 'Gloria Hallelujah', cursive;
 }
 .about1 {
-	outline: 5px solid rgba(29 , 15 , 159, .9);
+	outline: 5px solid rgba(187 , 221 , 238 , .7);
 	text-align: center;
 	padding: 2px 2px;
 	margin: 10px 30px;
 }
 .img1 {
-	outline: 5px solid rgba(255 , 189 , 0 , .9);
+	outline: 5px solid rgba(238 , 204 , 187 , .7);
 	text-align: center;
 	padding: 2px 2px;
 	margin: 10px 30px;
@@ -178,7 +178,7 @@ span:after{
 	z-index: 2;
 }
 
-.popup .show{
+.popup.show{
 	display: block;
 }
 
@@ -196,7 +196,7 @@ span:after{
 	padding: 30px 40px;
 	width: 760px;
 	height: 340px;
-	background-color: green;
+	background-color: #66b868;
 	text-align: center;
 	position: absolute;
 	left: 60%;
@@ -224,22 +224,45 @@ span:after{
 }
 
 .popup .social {
-	border: 4px solid black;
 	padding: 10px;
-	background-color: purple;
+	background-color: #c76ec3;
 	float: left;
 	margin-left: 20px;
 	width: 120px;
 	box-sizing: border-box;
 	text-align: center;
-	box-shadow: 5px 2px 2px rgba(29 , 15 , 159, .4);
+	box-shadow: 5px 2px 2px rgba(110 , 61 , 108 , .4);
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 20px;
 	transform: translateX(100px) translateY(100px);
 }
+.social {
+	text-decoration: none;
+	color: black;
+}
 
+.g {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
 
+.h {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.g:hover {
+	color: green;
+}
+
+.h:hover {
+	color: green;
+}
 /*
 <div class="popup">
 	<div class="blanket"></div>
