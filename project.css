@@ -132,10 +132,12 @@ h1 {
 	font-weight: bold;
 	font-size: 20px;
 	transform: translateX(100px) translateY(100px);
+	font-family: 'Henny Penny', cursive;
 }
 .social {
 	text-decoration: none;
 	color: black;
+	font-family: 'Henny Penny', cursive;
 }
 
 .g {
@@ -250,4 +252,12 @@ h2,h3{
 	margin-top: 0;
 	font-family: 'Merienda', cursive;
 
+}
+
+.LI-profile-badge{
+	transform: translatex(500px);
+	padding-top: 5px;
+	padding-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
