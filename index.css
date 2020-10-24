@@ -30,7 +30,7 @@ h1 {
 
 .row {
 	
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 	transform: translateX(160px) translateY(-200px);
 
@@ -263,12 +263,34 @@ span:after{
 .h:hover {
 	color: green;
 }
+
+.bwswirl {
+	transform: translateY(25px);
+
+}
+
+.hocuspocus {
+	transform:  translateY(-50px);
+}
+
+.hp {
+	transform: translateY(20px);
+}
+
+.colorswirl {
+	transform:  translateY(-40px);
+}
+
+.911 {
+	transform: translateY(15px);
+}
+
+
 /*
-<div class="popup">
-	<div class="blanket"></div>
-	<div class="content">
-		<button class=""></button>
-	</div>
-</div>
+	<img class="bwswirl" src="img/bwswirl.png" width="250" height="250" alt="bwswirl">
+	<img class="hocuspocus" src="img/hocuspocus.png" width="250" height="250" alt="hocuspocus">
+	<img class="hp" src="img/hp.jpg" width="250" height="250" alt="hp">
+	<img class="colorswirl" src="img/colorswirl.png" width="250" height="250" alt="colorswirl">
+	<img class="" src="" width="150" height="150" alt="">
 
 /*
