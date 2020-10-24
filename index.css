@@ -127,6 +127,7 @@ h2,h3{
 	color: white;
 	margin-top: 0;
 	font-family: 'Merienda', cursive;
+	position: relative;
 
 }
 .about {
@@ -147,6 +148,8 @@ h2,h3{
 	text-align: center;
 	padding: 2px 2px;
 	margin: 10px 30px;
+	height: 1000px;
+	
 }
 .wrapper {
 	width: 960px;
@@ -266,41 +269,159 @@ span:after{
 	color: green;
 }
 
-.bwswirl {
+.bswirl {
 	transform: translateY(25px);
+	padding-top: 5px;
+	padding-bottom: 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
 
+.world {
+	transform: translateY(10px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.board {
+	transform: translateY(5px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .hocuspocus {
-	transform:  translateY(-50px);
+	transform: translateY(-25px);
+	padding-top: 5px;
+	padding-bottom: 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.cup {
+	transform: translateY(-30px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.tray {
+	transform: translateY(-35px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .hp {
-	transform: translateY(20px);
+	transform: translateY(10px);
+	padding-top: 5px;
+	padding-bottom: 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.battle {
+	transform: translateY(10px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.tray1 {
+	transform: translateY(5px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .colorswirl {
-	transform:  translateY(-40px);
+	transform: translateY(-25px);
+	padding-top: 5px;
+	padding-bottom: 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
 }
 
-.911 {
-	transform: translateY(15px);
+.star {
+	transform: translateY(-30px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.tray2 {
+	transform: translateY(-35px);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .LI-profile-badge{
-	transform: translatex(500px);
+	transform: translateX(500px);
 	padding-top: 5px;
 	padding-right: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
+.img {
+	position: relative;
+	color: lightgrey;
+	font-family: 'Gloria Hallelujah', cursive;
+	
+}
+.piccat1 {
+	padding-top: 5px;
+	margin-top: 5px;
+	position: absolute;
+	
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.piccat2 {
+	padding-top: 5px;
+	margin-top: 5px;
+	position: absolute;
+	
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.piccat3 {
+	padding-top: 30px;
+	margin-top: 30px;
+	position: absolute;
+	
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
 
 /*
-	<img class="bwswirl" src="img/bwswirl.png" width="250" height="250" alt="bwswirl">
-	<img class="hocuspocus" src="img/hocuspocus.png" width="250" height="250" alt="hocuspocus">
-	<img class="hp" src="img/hp.jpg" width="250" height="250" alt="hp">
-	<img class="colorswirl" src="img/colorswirl.png" width="250" height="250" alt="colorswirl">
-	<img class="" src="" width="150" height="150" alt="">
+		<img class="battle" src="img/hocuspocus.png" width="250" height="250" alt="hocuspocus">
+	<img class="star" src="img/hp.jpg" width="250" height="250" alt="hp">
+	<br>
+	<img class="board" src="img/colorswirl.png" width="250" height="250" alt="colorswirl">
+	<img class="tray" src="img/911.png" width="150" height="150" alt="9/11">
 
 /*
