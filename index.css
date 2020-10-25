@@ -3,6 +3,11 @@ body {
 	line-height: 30px;
 	margin: 0 auto;
 	border: 2px solid #ecc6f4;
+	
+}
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 header {
 	
@@ -269,7 +274,7 @@ span:after{
 	color: green;
 }
 
-.bswirl {
+/*.bswirl {
 	transform: translateY(25px);
 	padding-top: 5px;
 	padding-bottom: 2px;
@@ -363,7 +368,7 @@ span:after{
 	padding-bottom: 2px;
 	margin-top: 2px;
 	margin-bottom: 2px;
-}
+}*/
 
 .LI-profile-badge{
 	transform: translateX(500px);
@@ -379,7 +384,7 @@ span:after{
 	font-family: 'Gloria Hallelujah', cursive;
 	
 }
-.piccat1 {
+/*.piccat1 {
 	padding-top: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -410,12 +415,123 @@ span:after{
 	padding-left: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
+}*/
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ecc6f4;
+  border-radius: 5px;
+}
+
+/*.dm{
+  background-color: black;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+*/
 
 
 
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  
+}
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+	transform: translateX(-600px);
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
 
 /*
 		<img class="battle" src="img/hocuspocus.png" width="250" height="250" alt="hocuspocus">
